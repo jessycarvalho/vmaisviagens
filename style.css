@@ -1,0 +1,144 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #006AFF;
+  }
+  
+li {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+li a:hover {
+    background-color: #111;
+  }
+
+
+
+.pesquisa-container  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+  
+.pesquisa-container input[type=text] {
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 55px;
+    border: 1px solid #213bad;
+    padding: 20px;
+    width: 800px;
+}
+
+.pesquisa-container button {
+  float: right;
+  padding: 20px;
+  margin: 4px 2px;
+  background-color: #006AFF;
+  font-size: 17px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  }
+
+ .pesquisa-container button:hover {
+  background-color: #0228a3;
+  color: #fff;
+}
+
+  .container {
+    position: relative;
+    text-align: center;
+
+  }
+
+  .container-box {
+    position: relative;
+    padding: 50px;
+    background-color: #006AFF;
+    color: #fff;
+    width: 100%;
+    top: 100px;
+    left: 50%;
+    bottom: 100px;
+    transform: translate(-50%, -50%);
+    
+  }
+  .container-box p {
+    text-align: left;
+  }
+
+
+
+  .centered {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    bottom: 100px;
+    transform: translate(-50%, -50%);
+  }
+ 
+  
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+  padding: 2px 16px;
+}
+ .solicitar-container {
+  background-color: #006AFF;
+ }
+
+
+#border_form{
+    width: 80vh;
+    height: 70vh;
+    border-radius: 30px;
+    border-color: blueviolet;
+}
+#main{
+    width: 100vh;
+    height: 90vh;
+    align-content: center;
+    justify-items:center; 
+    align-self: center;
+}
+#form{
+    width: 80vh;
+    height: 68vh;
+    align-content: center;
+    justify-content: center;
+    position:absolute;
+    padding-left:28vh;
+}
